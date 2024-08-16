@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/drew/Library/CloudStorage/OneDrive-Personal/Code/Dotnet/C#/OCR_Testing/Testing.csproj": {}
+  },
+  "projects": {
+    "/Users/drew/Library/CloudStorage/OneDrive-Personal/Code/Dotnet/C#/OCR_Testing/Testing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/drew/Library/CloudStorage/OneDrive-Personal/Code/Dotnet/C#/OCR_Testing/Testing.csproj",
+        "projectName": "Testing",
+        "projectPath": "/Users/drew/Library/CloudStorage/OneDrive-Personal/Code/Dotnet/C#/OCR_Testing/Testing.csproj",
+        "packagesPath": "/Users/drew/.nuget/packages/",
+        "outputPath": "/Users/drew/Library/CloudStorage/OneDrive-Personal/Code/Dotnet/C#/OCR_Testing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/drew/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "PdfLibCore.ImageSharp": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

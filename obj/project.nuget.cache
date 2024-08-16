@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eq4rAaC5MrsTcFXUJsTRr1T1eFTtiOA5g+0E3LN5PF7NtP968nWjMQDfmIWi9JYG7h3isIOWle3QiIvp92kN5w==",
+  "success": true,
+  "projectFilePath": "/Users/drew/Library/CloudStorage/OneDrive-Personal/Code/Dotnet/C#/OCR_Testing/Testing.csproj",
+  "expectedPackageFiles": [
+    "/Users/drew/.nuget/packages/bblanchon.pdfium.linux/114.0.5705/bblanchon.pdfium.linux.114.0.5705.nupkg.sha512",
+    "/Users/drew/.nuget/packages/bblanchon.pdfium.macos/114.0.5705/bblanchon.pdfium.macos.114.0.5705.nupkg.sha512",
+    "/Users/drew/.nuget/packages/bblanchon.pdfium.win32/114.0.5705/bblanchon.pdfium.win32.114.0.5705.nupkg.sha512",
+    "/Users/drew/.nuget/packages/pdflibcore/2.5.0/pdflibcore.2.5.0.nupkg.sha512",
+    "/Users/drew/.nuget/packages/pdflibcore.imagesharp/2.5.0/pdflibcore.imagesharp.2.5.0.nupkg.sha512",
+    "/Users/drew/.nuget/packages/sixlabors.imagesharp/3.1.4/sixlabors.imagesharp.3.1.4.nupkg.sha512",
+    "/Users/drew/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
+    "/Users/drew/.nuget/packages/tesseract/5.2.0/tesseract.5.2.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-63p8-c4ww-9cg7",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qxrv-gp6x-rc23",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

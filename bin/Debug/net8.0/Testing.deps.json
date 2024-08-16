@@ -1,0 +1,196 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Testing/1.0.0": {
+        "dependencies": {
+          "PdfLibCore.ImageSharp": "2.5.0",
+          "SixLabors.ImageSharp": "3.1.4",
+          "Tesseract": "5.2.0"
+        },
+        "runtime": {
+          "Testing.dll": {}
+        }
+      },
+      "bblanchon.PDFium.Linux/114.0.5705": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libpdfium.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libpdfium.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libpdfium.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x86/native/libpdfium.so": {
+            "rid": "linux-musl-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libpdfium.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libpdfium.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "bblanchon.PDFium.macOS/114.0.5705": {
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libpdfium.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libpdfium.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "bblanchon.PDFium.Win32/114.0.5705": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/pdfium.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/pdfium.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/pdfium.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PdfLibCore/2.5.0": {
+        "dependencies": {
+          "bblanchon.PDFium.Linux": "114.0.5705",
+          "bblanchon.PDFium.Win32": "114.0.5705",
+          "bblanchon.PDFium.macOS": "114.0.5705"
+        },
+        "runtime": {
+          "lib/netstandard2.1/PdfLibCore.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      },
+      "PdfLibCore.ImageSharp/2.5.0": {
+        "dependencies": {
+          "PdfLibCore": "2.5.0",
+          "SixLabors.ImageSharp": "3.1.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/PdfLibCore.ImageSharp.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.4": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.4.0"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "Tesseract/5.2.0": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Tesseract.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Testing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bblanchon.PDFium.Linux/114.0.5705": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bUP5LgX2DTM1mWtVbLJ8IFXGloqUWMFtuViiMHInwr3SDcJC+BvMYdw244Imh+jo7XDvFPc6cUfgo0ndeGYTNQ==",
+      "path": "bblanchon.pdfium.linux/114.0.5705",
+      "hashPath": "bblanchon.pdfium.linux.114.0.5705.nupkg.sha512"
+    },
+    "bblanchon.PDFium.macOS/114.0.5705": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m5lIaReZa0jG5Spd2wCPw6eOti9NLeSAYC2NOxFB15D9QlqUBT3GN28YKpXjYnCnznoH4eaUlWvKHsmT1tBXAw==",
+      "path": "bblanchon.pdfium.macos/114.0.5705",
+      "hashPath": "bblanchon.pdfium.macos.114.0.5705.nupkg.sha512"
+    },
+    "bblanchon.PDFium.Win32/114.0.5705": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nmRNMx+2rkMCMg3Pjp8guFuIoCCQ3N8sdo8eI7IAUuJYyiWKlYGnKcXSkkZlCRnn98ZDop6J9y1IBvv0+DwKpg==",
+      "path": "bblanchon.pdfium.win32/114.0.5705",
+      "hashPath": "bblanchon.pdfium.win32.114.0.5705.nupkg.sha512"
+    },
+    "PdfLibCore/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YGHvtx3LxUCHRMNr6grgyZKcn8ElRWmml0TFwISxUv5c1p4+tcZ7lBN22rUmMMzA4pLxQ/IlzmrElyI/I+V3mA==",
+      "path": "pdflibcore/2.5.0",
+      "hashPath": "pdflibcore.2.5.0.nupkg.sha512"
+    },
+    "PdfLibCore.ImageSharp/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aL3k9GpxH0PcLyNOaKEPkPtgSpS3CBd/oJrP9/8S+MMN6UfqekjuwcDF0U1lSpanlN9b3ueTBxFEQ8TRBhLrbA==",
+      "path": "pdflibcore.imagesharp/2.5.0",
+      "hashPath": "pdflibcore.imagesharp.2.5.0.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lFIdxgGDA5iYkUMRFOze7BGLcdpoLFbR+a20kc1W7NepvzU7ejtxtWOg9RvgG7kb9tBoJ3ONYOK6kLil/dgF1w==",
+      "path": "sixlabors.imagesharp/3.1.4",
+      "hashPath": "sixlabors.imagesharp.3.1.4.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "Tesseract/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YB7feJlrTWSXtK8+WaCcseGSPK/1r2d2FWeKGyndlrPwYClrzTlCoHD4/oQEUjKafmpkWlhTZZ7pxiRJYZgj6w==",
+      "path": "tesseract/5.2.0",
+      "hashPath": "tesseract.5.2.0.nupkg.sha512"
+    }
+  }
+}
