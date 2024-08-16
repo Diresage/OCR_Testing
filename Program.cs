@@ -9,6 +9,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        //Testing OCR
+    
         var dpiX = 300D;
         var dpiY = 300D;
         var cropRect = new Rectangle(600, 600, 600, 600);
